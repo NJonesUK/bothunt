@@ -1,0 +1,10 @@
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel ddos.phatsyn 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel ddos.targa3 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel syn 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel synflood 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel udpstop 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel scan.listnetranges 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel scanstats 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel http.update 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel cvar.set spam_htmlemail 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}
+{"alert_type":"irc","alert":{"snort_rule":"irc command","data":"PRIVMSG #evilchannel sniffer.delstring 127.0.0.1"},"origin_ip":"127.0.0.1","destination_ip":"192.168.0.1"}

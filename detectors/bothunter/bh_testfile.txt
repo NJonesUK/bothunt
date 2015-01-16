@@ -1,0 +1,178 @@
+Score:            0.8 (>= 0.8)
+Infected Target:  192.168.1.100
+Infector List:    <unobserved>
+Egg Source List:  <unobserved>
+C & C List:       <unobserved>
+Peer Coord. List: 199.26.254.68, 138.26.66.5, 62.108.171.76
+Resource List:    <unobserved>
+Observed Start:   03/26/2013 15:51:03.269 PDT
+Gen. Time:        03/26/2013 15:51:07.787 PDT
+
+
+INBOUND SCAN
+    <unobserved>
+    
+EXPLOIT
+    <unobserved>
+    
+EXPLOIT MALWARE DNS
+    <unobserved>
+    
+EGG DOWNLOAD
+    <unobserved>
+    
+C and C TRAFFIC
+    <unobserved>
+    
+C and C TRAFFIC (RBN)
+    <unobserved>
+    
+C and C DNS CHECK-IN
+    <unobserved>
+    
+OUTBOUND SKYPE CANDIDATE
+    <unobserved>
+    
+OUTBOUND SCAN (spp)
+    <unobserved>
+    
+OUTBOUND SCAN
+    <unobserved>
+    
+ATTACK PREP
+    <unobserved>
+    
+PEER COORDINATION Info
+    199.26.254.68 (15:51:03.269 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          6881->54866 (15:51:03.269 PDT)
+       
+    138.26.66.5 (15:51:06.250 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          6882->45996 (15:51:06.250 PDT)
+       
+    62.108.171.76 (15:51:04.057 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          6882->55660 (15:51:04.057 PDT)
+       
+PEER COORDINATION
+    <unobserved>
+    
+DECLARE BOT Standard Port
+    <unobserved>
+    
+DECLARE BOT Non-standard Port
+    195.128.181.52 (15:51:07.787 PDT)
+       event=1:9930020 {udp} E8[unk] ET ShadowServer confirmed botnet control server on non-standard port, [] MAC_Src: 00:21:5A:08:BB:0C
+          6881->61086 (15:51:07.787 PDT)
+       
+DECLARE BOT
+    <unobserved>
+    
+OUTBOUND INTENSE MALWARE PORT SCAN
+    <unobserved>
+    
+tcpslice 1364338263.269 1364338263.270 inputFile.tcpd | tcpdump -r - -w outputFile.tcpd 'host 192.168.1.100'
+
+============================== SEPARATOR ================================
+Score:            0.8 (>= 0.8)
+192.168.1.100
+Infector List:    <unobserved>
+Egg Source List:  <unobserved>
+C & C List:       <unobserved>
+Peer Coord. List: 72.36.112.78, 131.247.2.247 (3), 128.84.154.45 (3), 24.165.201.85, 58.193.152.68, 139.19.142.2 (3), 199.26.254.68, 138.26.66.5, 62.108.171.76 (3)
+Resource List:    <unobserved>
+Observed Start:   03/26/2013 15:51:03.269 PDT
+Gen. Time:        03/26/2013 15:54:56.062 PDT
+
+
+INBOUND SCAN
+    <unobserved>
+    
+EXPLOIT
+    <unobserved>
+    
+EXPLOIT MALWARE DNS
+    <unobserved>
+    
+EGG DOWNLOAD
+    <unobserved>
+    
+C and C TRAFFIC
+    <unobserved>
+    
+C and C TRAFFIC (RBN)
+    <unobserved>
+    
+C and C DNS CHECK-IN
+    <unobserved>
+    
+OUTBOUND SKYPE CANDIDATE
+    <unobserved>
+    
+OUTBOUND SCAN (spp)
+    <unobserved>
+    
+OUTBOUND SCAN
+    <unobserved>
+    
+ATTACK PREP
+    <unobserved>
+    
+PEER COORDINATION Info
+    72.36.112.78 (15:51:38.171 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          43942->6882 (15:51:38.171 PDT)
+       
+    131.247.2.247 (3) (15:51:08.497 PDT-15:51:34.128 PDT)
+       event=1:2000357 (3) {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          3: 41970->6881 (15:51:08.497 PDT-15:51:34.128 PDT)
+       
+    128.84.154.45 (3) (15:51:13.186 PDT-15:51:35.635 PDT)
+       event=1:2000357 (3) {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          3: 6881->46341 (15:51:13.186 PDT-15:51:35.635 PDT)
+       
+    24.165.201.85 (15:51:27.261 PDT)
+       event=1:1100013 {udp} E7[info] P2P torrent DHT ping, [] MAC_Src: 00:21:5A:08:BB:0C
+          6881->14922 (15:51:27.261 PDT)
+       
+    58.193.152.68 (15:51:40.165 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          6881->55823 (15:51:40.165 PDT)
+       
+    139.19.142.2 (3) (15:51:10.252 PDT-15:51:33.365 PDT)
+       event=1:2000357 (3) {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          3: 6881->34256 (15:51:10.252 PDT-15:51:33.365 PDT)
+       
+    199.26.254.68 (15:51:03.269 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          6881->54866 (15:51:03.269 PDT)
+       
+    138.26.66.5 (15:51:06.250 PDT)
+       event=1:2000357 {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          6882->45996 (15:51:06.250 PDT)
+       
+    62.108.171.76 (3) (15:51:04.057 PDT-15:51:30.281 PDT)
+       event=1:2000357 (3) {tcp} E7[info] ET P2P BitTorrent Traffic, [] MAC_Src: 00:21:5A:08:BB:0C
+          3: 6882->55660 (15:51:04.057 PDT-15:51:30.281 PDT)
+       
+PEER COORDINATION
+    <unobserved>
+    
+DECLARE BOT Standard Port
+    <unobserved>
+    
+DECLARE BOT Non-standard Port
+    195.128.181.52 (15:51:07.787 PDT)
+       event=1:9930020 {udp} E8[unk] ET ShadowServer confirmed botnet control server on non-standard port, [] MAC_Src: 00:21:5A:08:BB:0C
+          6881->61086 (15:51:07.787 PDT)
+       
+DECLARE BOT
+    <unobserved>
+    
+OUTBOUND INTENSE MALWARE PORT SCAN
+    <unobserved>
+    
+tcpslice 1364338263.269 1364338295.636 inputFile.tcpd | tcpdump -r - -w outputFile.tcpd 'host 192.168.1.100'
+
+============================== SEPARATOR ================================

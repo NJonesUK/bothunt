@@ -1,0 +1,8 @@
+#IRC rules
+alert icmp any any -> any any (msg:"ICMP Packet"; sid:45477; rev:3;)
+alert tcp any any -> any any (content:"PRIVMSG"; msg:"IRC PRIVMSG"; sid:6667; rev:3;)
+alert tcp any any -> any any (content:"NICK"; msg:"IRC NICK"; sid:6668; rev:3;)
+
+#http rules
+alert tcp any any -> any any (msg:"LOCAL http_method test for GET"; content: "GET"; http_method; sid:2000002;)
+alert tcp any any -> any any (msg:"LOCAL http_method test for POST"; content: "POST"; http_method; sid:2000002;)
